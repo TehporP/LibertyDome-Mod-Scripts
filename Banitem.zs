@@ -49,3 +49,6 @@ mods.thaumcraft.Research.addPage("ARCANEBORE", "derp.research_page.WARNING");
 //remove bukkit aspects
 mods.thaumcraft.Aspects.remove(<minecraft:bucket>, "metallum 8");
 mods.thaumcraft.Aspects.remove(<minecraft:bucket>, "vacuos 1");
+
+//remove Ender IO staff
+recipes.remove(<EnderIO:itemTravelStaff:16>);

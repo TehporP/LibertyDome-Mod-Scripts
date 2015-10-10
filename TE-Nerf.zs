@@ -1,7 +1,7 @@
 //Author:TehporP
 
 import mods.gregtech.Assembler;
-
+import mods.gregtech.AlloySmelter;
 
 
 //Remove TE StrongBox
@@ -96,3 +96,8 @@ Assembler.addRecipe(<ThermalExpansion:Strongbox:2>, <ThermalExpansion:Strongbox:
 Assembler.addRecipe(<ThermalExpansion:Strongbox:3>, <ThermalExpansion:Strongbox:2>, <gregtech:gt.metaitem.01:18019> * 4 ,null, 800, 6);
 Assembler.addRecipe(<ThermalExpansion:Strongbox:4>, <ThermalExpansion:Strongbox:3>, <gregtech:gt.metaitem.01:18321> * 4 ,null, 1000, 8);
 
+//New TE Glass Recipes
+AlloySmelter.addRecipe(<ThermalExpansion:Glass> * 2, <gregtech:gt.metaitem.01:2804> * 4, <gregtech:gt.metaitem.01:2089>, 200, 16);
+AlloySmelter.addRecipe(<ThermalExpansion:Glass> * 2, <gregtech:gt.metaitem.01:2804> * 4, <gregtech:gt.metaitem.01:11089>, 200, 16);
+AlloySmelter.addRecipe(<ThermalExpansion:Glass:1> * 2, <gregtech:gt.metaitem.01:2804> * 4, <ThermalFoundation:material:43>, 200, 16);
+AlloySmelter.addRecipe(<ThermalExpansion:Glass:1> * 2, <gregtech:gt.metaitem.01:2804> * 4, <ThermalFoundation:material:75>, 200, 16);
