@@ -25,12 +25,6 @@ mods.thaumcraft.Research.clearPages("FOCUSEXCAVATION");
 mods.thaumcraft.Research.addPage("FOCUSEXCAVATION", "tc.research_page.FOCUSEXCAVATION.1");
 mods.thaumcraft.Research.addPage("FOCUSEXCAVATION", "derp.research_page.WARNING");
 
-//remove TC Primal Focus
-mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:FocusPrimal>);
-mods.thaumcraft.Research.clearPages("FOCUSPRIMAL");
-mods.thaumcraft.Research.addPage("FOCUSPRIMAL", "tc.research_page.FOCUSPRIMAL.1");
-mods.thaumcraft.Research.addPage("FOCUSPRIMAL", "derp.research_page.WARNING");
-
 //remove TC Arcane Bore
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockWoodenDevice:4>);
 mods.thaumcraft.Infusion.removeRecipe(<Thaumcraft:blockWoodenDevice:5>);
@@ -44,11 +38,15 @@ mods.thaumcraft.Research.addPage("ARCANEBORE", "derp.research_page.WARNING");
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemNugget>);
 mods.thaumcraft.Research.clearPages("TRANSIRON");
 mods.thaumcraft.Research.addPage("TRANSIRON", "tc.research_page.TRANSIRON.1");
-mods.thaumcraft.Research.addPage("ARCANEBORE", "derp.research_page.WARNING");
+mods.thaumcraft.Research.addPage("TRANSIRON", "derp.research_page.WARNING");
 
-//remove bukkit aspects
+//remove aspects
 mods.thaumcraft.Aspects.remove(<minecraft:bucket>, "metallum 8");
 mods.thaumcraft.Aspects.remove(<minecraft:bucket>, "vacuos 1");
+mods.thaumcraft.Aspects.remove(<gregtech:gt.metaitem.01:25032>, "metallum 5");          //round Iron
+mods.thaumcraft.Aspects.remove(<gregtech:gt.metaitem.01:25034>, "metallum 2");          //round Nickle
+mods.thaumcraft.Aspects.remove(<gregtech:gt.metaitem.01:25302>, "metallum 2");          //round Invar
+mods.thaumcraft.Aspects.remove(<gregtech:gt.metaitem.01:25303>, "metallum 2");          //round Electrum
 
 //remove Ender IO staff
 recipes.remove(<EnderIO:itemTravelStaff:16>);
