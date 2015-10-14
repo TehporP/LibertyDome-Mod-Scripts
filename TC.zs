@@ -1,6 +1,5 @@
-//By:siriulx <siriulx@qq.com>
 
-//Nwe Enchanting Table Recipe
+//New Enchanting Table Recipe
 mods.thaumcraft.Research.addResearch("ENCHANTINGTABLE", "BASICS", "humanus 5, praecantatio 5", 1, -4, 0, <minecraft:enchanting_table>);
 game.setLocalization("en_US", "tc.research_name.ENCHANTINGTABLE", "Enchanting Table!");
 game.setLocalization("zh_CN", "tc.research_name.ENCHANTINGTABLE", "\u9644\u9B54\u53F0!");
